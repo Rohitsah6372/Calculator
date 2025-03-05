@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="screen">
+            <label for="" class="" id="displayingScrren">0</label>
+        </div>
+        <div class="elements">
+            <div class="row1">
+                    <button class="ac" id="ac" onclick="funcAC()" >AC</button>
+                    <button class="del" id="del" onclick="funDelete()">DEL</button>
+                    <button class="percentage" id="percentage" onclick="funNumber(event)">%</button>
+                    <button class="divide" id="divide"  onclick="funNumber(event)" >/</button>
+            </div>
+            <div class="row2">
+                <button type="submit" class="seven number" id="seven" onclick="funNumber(event)" >7</button>
+                <button class="eight number" id="eight" onclick="funNumber(event)">8</button>
+                <button class="nine number" id="nine" onclick="funNumber(event)">9</button>
+                <button class="multiply" id="multiply" onclick="funNumber(event)">*</button>
+            </div>
+            <div class="row3">
+                <button class="four number" id="four" onclick="funNumber(event)">4</button>
+                <button class="five number" id="five" onclick="funNumber(event)">5</button>
+                <button class="six number" id="six" onclick="funNumber(event)">6</button>
+                <button class="subtract" id="subtract" onclick="funNumber(event)">-</button>
+            </div>
+            <div class="row4">
+                <button class="one number" id="one" onclick="funNumber(event)">1</button>
+                <button class="two number" id="two" onclick="funNumber(event)">2</button>
+                <button class="three number" id="three" onclick="funNumber(event)">3</button>
+                <button class="sum" id="sum"  onclick="funNumber(event)">+</button>
+            </div>
+            <div class="row5">
+                <button class="doubleZero number" id="doubleZero" onclick="funNumber(event)">00</button>
+                <button class="zero number" id="zero" onclick="funNumber(event)">0</button>
+                <button class="point" id="point" onclick="funNumber(event)">.</button>
+                <button class="equalsTo" id="equalsTo" onclick="funOperations()">=</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
